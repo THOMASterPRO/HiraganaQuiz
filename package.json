@@ -1,0 +1,12 @@
+{
+  "name": "les2",
+  "private": true,
+  "scripts": {
+    "start": "concurrently -n backend,frontend -c blue,green \"npm start --prefix backend\" \"npm start --prefix chatbot\"",
+    "start:backend": "npm start --prefix backend",
+    "start:frontend": "npm start --prefix chatbot"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
