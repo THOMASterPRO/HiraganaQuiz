@@ -2,10 +2,11 @@
 
 :root {
   --main: #C70025;
-  --bg: #fffbe2;
+  --bg: #feeae7;
   --user-bubble: #C70025;
-  --bot-bubble: #f2e2b6;
+  --bot-bubble: #cf5d68;
   --text-main: #ffffff;
+  --text-bot: #ffffff;
   --accent: #b13d52;
 }
 
@@ -26,7 +27,9 @@ h1 {
   display: grid;
   place-items: center;
   padding: 1rem;
-  background-color: var(--bg);
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-position: center;
   font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
 }
 
