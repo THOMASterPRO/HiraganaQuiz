@@ -1,5 +1,5 @@
 {
-  "name": "les2",
+  "name": "HiraganaQuiz",
   "private": true,
   "scripts": {
     "start": "concurrently -n backend,frontend -c blue,green \"npm start --prefix backend\" \"npm start --prefix chatbot\"",
